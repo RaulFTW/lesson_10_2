@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   maven:
-    image: boxfuse
+    image: 51.250.22.183:8081/boxfuse
     volumes:
       - static:/usr/local/boxfuse-sample-java-war-hello/target/
 
